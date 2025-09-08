@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class WorkersBase {
@@ -37,5 +38,21 @@ public class WorkersBase {
                 } else addFailedData(workerData);
             } else addFailedData(workerData);
         }
+    }
+
+    public static void sortEmployeeByName(){
+        WorkersBase.listEmployee.sort(Comparator.comparing(Employee::getName));
+    }
+
+    public static void sortEmployeeByNameReversed(){
+        WorkersBase.listEmployee.sort(Comparator.comparing(Employee::getName).reversed());
+    }
+
+    public static void sortEmployeeBySalary(){
+        WorkersBase.listEmployee.sort(Comparator.comparing(Employee::getSalary));
+    }
+
+    public static void sortEmployeeBySalaryReversed(){
+        WorkersBase.listEmployee.sort(Comparator.comparing(Employee::getSalary).reversed());
     }
 }
