@@ -4,5 +4,11 @@ Employee,105,Claire Green,2900.75,3
 Employee,106,Orphaned Person,3200,99
 Employee,107,Spacey User , 3900 , 2
 
-mployee,107,Spacey User , 3900 , 2
-,3,Jane Smith,5500,IT
+Employee,102,Emily Johnson,abc,1
+Manager,2,Michael Brown,6000,Sales
+Manager,1,Jane Smith,5000,HR
+Manager,3,Jane Smith,5000,Dev
+Employee,103,Chris White,-2900,2
+Employee,104,Anna Taylor,3100,2
+Employee,101,John Doe,3000,1
+Employee,105,Robert Black,,2
